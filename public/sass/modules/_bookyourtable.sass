@@ -1,0 +1,85 @@
+.our
+    h1
+        font-family: Courgette-Regular
+        text-align: center
+        padding-top: 60px
+        color: black
+        span
+            color: #c91d34
+    img
+        display: block
+        margin-left: auto
+        margin-right: auto
+     
+form
+    margin: 0 auto
+    background-image: url('../img/book_table_bg.jpg')
+    background-size: cover
+    border-radius: 70px
+    width: 70%
+    background-repeat: no-repeat
+    background-position: center
+    height: 600px
+    @include media-breakpoint-down(sm) 
+        height: 750px
+        width: 350px
+    p
+        color: white
+        font-family: Ubuntu-Light
+        font-size: 20px
+        text-align: center
+        padding: 50px
+        span
+            font-weight: bold
+            font-size: 30px
+        input
+            border-radius: 5%
+    .now
+        border-radius: 32px
+        width: 150px
+.blog
+    padding-top: 50px
+    margin: 20px
+    img
+        border-radius: 5%
+        border: solid 0.3em lightgrey
+        height: auto
+        width: auto
+        @include media-breakpoint-down(sm)
+            height: 150px
+        @include media-breakpoint-down(md)
+            height: 150px
+            // right: 70%
+    span
+        font-weight: bold
+        font-size: 22px
+        @include media-breakpoint-down(md)
+            font-size: 14px
+    h6,p
+        @include media-breakpoint-down(md)
+            font-size: 14px
+    button
+        font-size: 16px
+        top: 50%
+        left: 50%
+        transform: translate(0%, -50%)
+        -ms-transform: translate(-50%, -50%)
+        color: white
+        font-size: 16px
+        margin: 0px 0px 0px 50px
+        border-radius: 8px
+        text-align: center
+        @include media-breakpoint-only(sm) 
+            margin: auto
+        @include media-breakpoint-only(md)
+            height: 50px
+            font-size: 10px
+            margin: auto
+            
+    .but
+        margin-bottom: 50px
+        border-radius: 30px
+        margin: 30px
+        @include media-breakpoint-only(md)
+            font-size: 20px
+            

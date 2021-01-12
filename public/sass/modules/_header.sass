@@ -1,0 +1,79 @@
+body
+    background-image: url("../img/main_bg.jpg")
+    margin: 0
+    header
+        overflow: hidden
+        position: relative
+    #headertitre
+        position: absolute 
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        z-index: 1100
+        @include media-breakpoint-only(md)
+            top: 50%
+        h4
+            font-size: 100px
+            color: white
+            font-family: Courgette-Regular
+            span
+                color: #c91d34
+            @include media-breakpoint-down(md)
+                font-size: 25px
+                margin-top: 30px
+            .small
+                font-size: 80px
+                color: white
+                @include media-breakpoint-down(lg)
+                    font-size: 20px
+        .boutton
+            font-size: 30px
+            .btn 
+                border: 10px solid none
+                border-radius: 30px
+                padding: 10px 30px
+                @include media-breakpoint-down(lg)
+                    font-size: 5px
+                    margin: 0 5px
+    .navbar
+        position: absolute
+        z-index: 1200
+        .liste
+            border-top: 2px solid white
+            border-bottom: 2px solid white
+            @include media-breakpoint-down(sm)
+                background-color: #0a0a0a
+                border-top: 2px solid black
+                border-bottom: 2px solid
+                font-size: 16px
+            @include media-breakpoint-down(lg)
+                font-size: 12px
+            a
+                text-decoration: none
+                font-size: 15px                    
+            &:hover 
+                background-color: #C12D3F
+        .logo
+            @include media-breakpoint-down(lg)
+                display: none
+        .listenav        
+            @include media-breakpoint-down(sm)
+                display: none    
+
+    .carousel
+            .d-block
+                filter: brightness(10%)
+                -webkit-filter: brightness(15%)
+            .carousel-indicators
+                        li
+                            border-radius: 50%
+                            width: 12px
+                            height: 12px
+
+
+.dent
+    position: absolute
+    bottom: 0%
+    display: flex
+    
+

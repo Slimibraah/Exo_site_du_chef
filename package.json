@@ -1,5 +1,25 @@
 {
+  "name": "site_du_chef_projet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenyNtb/coding_16_site_chef.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenyNtb/coding_16_site_chef/issues"
+  },
+  "homepage": "https://github.com/BenyNtb/coding_16_site_chef#readme",
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1"
+    "@fortawesome/fontawesome-free": "^5.15.1",
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1"
   }
 }

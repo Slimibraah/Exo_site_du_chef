@@ -1,0 +1,72 @@
+.part-one
+    h1
+        font-family: Courgette-Regular
+        text-align: center
+        padding-top: 30px
+        span
+            color: #c91d34
+    img
+        display: block
+        margin-left: auto
+        margin-right: auto
+        @include media-breakpoint-down(sm) 
+            display: none
+    p
+        justify-content: center
+        text-align: center 
+.bkf
+    .icon-full
+        border-right: solid 1px lightgrey
+        .icon
+            font-size: 50px
+            color: lightgrey
+            text-align: center
+            padding-left: 50px
+            @include media-breakpoint-down(sm) 
+                padding-left: 140px
+            @include media-breakpoint-only(md) 
+                padding-left: 25px           
+        .icon:hover
+            color:  #C12D3F    
+    .side
+        border-bottom: solid 1px light grey    
+    h5
+        font-family: Courgette-Regular
+        font-size: 30px
+        border-bottom: solid 1px lightgrey
+        text-align: center
+        // border-right: solid 1px lightgrey
+        // border-right-length: 90px
+        @include media-breakpoint-only(sm) 
+            // padding-left: 120px
+            font-size: 20px
+        @include media-breakpoint-only(md)
+            font-size: 16px    
+    h6
+        // padding-left: 20px   
+    p
+        // padding-left: 20px
+        font-size: 15px
+
+    .coffee    
+        border: solid 0.08em lightgrey
+        border-radius: 50%
+        background-color: white
+        font-size: 80px
+        display: flex
+        height: 120px
+        position: relative
+        margin: 0px
+        
+    span
+        position: absolute
+        bottom: 0
+        right: 0
+        background-color: lightgrey
+        padding: 10px
+        color:  #c91d34
+        opacity: 0.8
+        @include media-breakpoint-only(md)
+            padding: 0px
+        @include media-breakpoint-only(sm)
+            padding: 0px    
