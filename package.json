@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BenyNtb/coding_16_site_chef.git"
+    "url": "git+https://github.com/Slimibraah/Exo_site_du_chef"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/BenyNtb/coding_16_site_chef/issues"
+    "url": "https://github.com/Slimibraah/Exo_site_du_chef"
   },
-  "homepage": "https://github.com/BenyNtb/coding_16_site_chef#readme",
+  "homepage": "https://github.com/Slimibraah/Exo_site_du_chef",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.15.1",
     "bootstrap": "^4.5.3",
